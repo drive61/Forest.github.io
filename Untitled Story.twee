@@ -1,0 +1,199 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "F984E24C-F6D4-40AF-8FBB-AB4CE406DFE2",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "tag-colors": {
+    "Start": "green",
+    "Path-1": "purple",
+    "Bad": "purple",
+    "faster": "purple",
+    "run": "red",
+    "LOL": "blue",
+    "YUMMY": "yellow",
+    "YAY": "blue",
+    "COOL": "purple",
+    "OKAY": "purple",
+    "SILLY": "orange",
+    ".": "orange"
+  },
+  "zoom": 0.3
+}
+
+
+:: \ Path 2 [YAY] {"position":"900,100","size":"100,100"}
+
+
+
+
+
+
+(text-colour:#ffe066)+(bg:grey)[You begin to look up in the night sky, admiring how beautiful the stars are. While wondering around through the forest you begin to see lights coming from the far distance. You stopped and think, shold I ]
+
+
+
+(text-colour:fuchsia)[ [[keep walking]] or [[ go to the light]] ]
+
+
+:: \ The screaming stops. [LOL] {"position":"175,575","size":"100,100"}
+(text-colour:red)+(bg:black)[The monster gets a hold of you, you close your eyes and hope this was all a dream ]
+
+
+:: \ go to the light [OKAY] {"position":"975,225","size":"100,100"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(text-colour:#63e6be)[You stumble upon a group of people who are around your age,  you introduce yourself to them and explain your situation. They're hesitant at first but trust you and offer to help you get home. ]
+
+
+:: . [.] {"position":"550,1000","size":"100,100"}
+
+
+
+:: Path 1 [Bad] {"position":"300,200","size":"100,100"}
+
+
+
+
+
+
+
+
+
+(text-colour:purple)+(bg:black)[You decide to take path 1, while walking you begin to hear footsteps coming behind you. You decide to start walking (text-colour:Red)+(bg:black)[[faster]]. 
+]
+
+
+:: Start {"position":"600,0","size":"100,100"}
+
+
+
+
+
+
+(text-colour:green)+(bg:black)[You seem to be lost in a [[forest]]. You look around and see three different paths. You stop to think and decide which path you should take. 
+]
+
+(text-colour:purple)+(bg:black)[ [[Path 1]] ]
+(text-colour:blue)+(bg:black) [ [[ Path 2]] ] 
+
+
+
+:: either run away [run] {"position":"175,450","size":"100,100"}
+(text-colour:purple)+(bg:black)[You begin to run as fast as you can, the faster you run the louder the screaming gets. You look behind you but end up losing your balance and fall on the ground. ](text-colour:red)+(bg:black)[ [[ The screaming stops.]]] 
+
+
+:: faster [faster] {"position":"300,325","size":"100,100"}
+(text-colour:purple)+(bg:black)[You stumble upon an old abandoned cabin, you take a moment to breathe. You begin to walk closer and examine the building. After a few minutes you hear screaming , the screaming is coming from behind you (text-colour:red)+(bg:black)[[either run away]] or (text-colour:blue)+(bg:black)[[go into the cabin.]]
+]
+
+
+:: forest [SILLY] {"position":"550,875","size":"100,100"}
+                                                            (text-colour:white)[[.]]
+
+
+:: go into the cabin. [YUMMY] {"position":"425,450","size":"100,100"}
+(text-colour:#ffa8a8)+(bg:(gradient: 179, 0,#ffffff,0.358,transparent,1,#ffffff))[Onces inside you quickly slam the door and lock it. You slowly walk over to the wooden chair and sit down, You close your eyes and hope all this goes away.]
+
+
+
+:: keep walking [COOL] {"position":"775,225","size":"100,100"}
+(text-colour:#74c0fc)+(bg:black)[You get  closer to the lake and find a rock to sit on, You take a deep breath and relax.  You decide to wait by the lake until sunrise. ]
+
+
+:: StoryStylesheet [stylesheet]
+tw-story{ 
+background-image:url("https://www.publicdomainpictures.net/pictures/40000/velka/scary-woods.jpg");
+background-size:cover;
+  
+}
+
+tw-story[tags~="Bad"] {
+ background-image:url("https://static.boredpanda.com/blog/wp-content/uploads/2025/08/scary-experiences-woods-cover_675.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="faster"] {
+ background-image:url("https://thoughtcatalog.com/wp-content/uploads/2018/02/m-wrona-pCgxm-HDMNs-unsplash.jpg?w=1280");
+ background-size:cover;
+}
+
+tw-story[tags~="run"] {
+ background-image:url("https://www.blueridgeoutdoors.com/wp-content/uploads/2015/04/MCBRIDE050509PISGAHNATFOREST-141-v2_BWartsy.jpg");
+ background-size:cover;
+}
+tw-story[tags~="LOL"] {
+ background-image:url("https://i.redd.it/creepy-looking-monsters-what-could-i-improve-newest-to-v0-rsepos6dwfrb1.jpg?width=2796&format=pjpg&auto=webp&s=2b26a1b49e6300cd73905671c8bcbb36a3b8d1e2");
+ background-size:cover;
+}
+tw-story[tags~="YUMMY"]{
+ background-image:url("https://pics.craiyon.com/2023-06-29/a11cfbfc77864bf7a76aad730b79cf9f.webp");
+ background-size:cover;
+}
+
+tw-story[tags~="YAY"]{
+ background-image:url("https://wallpapers.com/images/hd/night-forest-y4of55wp9z509exg.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="COOL"]{
+ background-image:url("https://m.media-amazon.com/images/I/71PSvQqNJvL._AC_UF894,1000_QL80_.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="OKAY"]{
+ background-image:url("https://atthewoods.ca/wp-content/uploads/2023/04/camping.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="SILLY"]{
+ background-image:url("https://media.makeameme.org/created/bottom-text-top-5c34ce.jpg");
+ background-size:cover;
+}
+
+tw-story[tags~="."]{
+ background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-W5JKoYA5DpJLMh5dM7F5GAbjJ3gYPnX1g&s");
+ background-size:cover;
+}
